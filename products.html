@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<title>商品列表</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=0" />
+		<meta content="yes" name="apple-mobile-web-app-capable" />
+		<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+		<meta author="fengliang" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="search">
+				<input class="txt" type="search" list="searchlist" />
+				<datalist id="searchlist">
+					<option value="衣服" label="3天前">
+						<option value="电脑" label="1天前">
+							<option value="零食" label="2天前">
+								<option value="鞋子" label="3天前">
+									<option value="女鞋" label="3天前">
+										<option value="登山鞋" label="3天前">
+											<option value="球鞋" label="3天前">
+				</datalist>
+			</div>
+			<span id="nav-icon" class="nav-icon dlb">
+				<em></em>n
+			</span>
+			<span id="search-icon" class="search-icon pa"></span>
+		</header>
+		<section>
+			<header>
+				
+			</header>			
+			<article>
+				<ul>
+					<li>
+						<a href="#">
+							<img src="img/1.jpg">
+							<div>
+								  
+							</div>
+						</a>
+					</li>
+				</ul>
+			</article>
+		</section>
+		<script src="js/libs/zepto.js"></script>
+		<script src="js/common.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$("#search-icon").click(function() {
+					$(".search").addClass("show").find(".txt").focus();
+					$(this).addClass("fixed");
+				});
+	
+				$("#nav-icon").click(function() {
+					alert('1');
+				});
+				
+			});
+		</script>
+	</body>
+
+</html>

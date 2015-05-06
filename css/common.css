@@ -1,0 +1,108 @@
+@charset "utf-8";
+/*
+	Date: 2014/10/11 21:16;
+	Author: fengliang;
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-style: normal;
+	border: 0;
+	-webkit-touch-callout:none;
+	-webkit-text-size-adjust: none;
+	-webkit-user-select: none;
+	-webkit-appearance: none;
+	user-select: none;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+a{
+	color: #696969;
+}
+body {
+	font-family: "微软雅黑";
+	font-size: 100%;
+	color: #696969;
+	background: #e8e8e8;
+	margin: auto;
+	padding-bottom: 50px;
+	max-width: 640px;
+}
+input,button,select{
+	height: 40px;
+	line-height: 30px;
+	padding: 5px 15px;
+	font-size: 18px;
+	color: #646464;
+	background-color: #fff;
+	border-radius: 3px;
+}
+button{
+	color: #fff;
+	font-size: 20px;
+	background-color: #ef8c17;
+	border: 0px;
+}
+button:active{
+	background-color: #e77f06;
+}
+button.disable{
+	background-color: #D8D4D4;
+}
+/*****************盒模型********/
+.db_f{
+  display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */
+  display: -moz-box; /* Firefox 17- */
+  display: -ms-flexbox; /* IE 10 */
+  display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */
+  display: -moz-flex; /* Firefox 18+ */
+  display: flex;
+}
+.bf1{
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-o-box-flex: 1;
+	-ms-box-flex: 1;
+	box-flex: 1;
+}
+.bf2{
+	-webkit-box-flex: 2;
+	-moz-box-flex: 2;
+	-o-box-flex: 2;
+	-ms-box-flex: 2;
+	box-flex: 2;
+}
+/**********定位******/
+.pa{
+	position: absolute;
+}
+.pr{
+	position: relative;
+}
+.pf{
+	position: fixed;
+}
+/***************块************/
+.db{
+	display: block;
+}
+.dl{
+	display: inline;
+}
+.dlb{
+	display: inline-block;
+}
+.dn{
+	display: none;
+}
+/**********padding************/
+.p5{
+	padding: 5px;
+}
+.p10{
+	padding: 10px;
+}
