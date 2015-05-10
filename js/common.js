@@ -10,6 +10,16 @@
 	document.addEventListener('DOMContentLoaded', recalc, false);
 })();
 
+$(function() {
+	$("#search-icon").click(function() {
+		$(".search").addClass("show").find(".txt").focus();
+	});
+
+	$("#nav-icon").click(function() {
+		alert('1');
+	});
+});
+
 // function openwin() { 
 //    var isInFullScreen = (document.fullScreenElement && document.fullScreenElement !==     null) ||    // alternative standard method  
 //             (document.mozFullScreen || document.webkitI*sFullScreen);
