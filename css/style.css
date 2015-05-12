@@ -198,15 +198,20 @@
 	width: calc(100% - 100px);
 	padding-left: 10px;
 }
-.basket{width: 60px;
-  font-size: 22px;
-  line-height: 50px;
-  text-align: center;
-  color: #039BE5;
+.basket{
+	width: 60px;
+	font-size: 22px;
+	line-height: 50px;
+	text-align: center;
+	color: #039BE5;
+}
+.filter{
+	bottom: 0px;
+	padding: 10px;
 }
 .filter span{
-	height: 30px;
-	line-height: 30px;
+	height: 36px;
+	line-height: 36px;
 	text-align: center;
 	background: #fff;
 	border-bottom: 1px solid #f8f8f8;
