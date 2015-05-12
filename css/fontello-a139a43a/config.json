@@ -193,30 +193,6 @@
       "src": "entypo"
     },
     {
-      "uid": "f11c9e95ae5eaa84d193e8fa1d38c6f9",
-      "css": "down-open-mini",
-      "code": 59406,
-      "src": "entypo"
-    },
-    {
-      "uid": "592717bd601645d61517d2a584d04127",
-      "css": "left-open-mini",
-      "code": 59405,
-      "src": "entypo"
-    },
-    {
-      "uid": "37f6cfbb4062ed0d01b351ec35c334ff",
-      "css": "right-open-mini",
-      "code": 59404,
-      "src": "entypo"
-    },
-    {
-      "uid": "9e251fb8e9e1c71ab09683468e0479a3",
-      "css": "up-open-mini",
-      "code": 59403,
-      "src": "entypo"
-    },
-    {
       "uid": "3626b3f3a0b284e7f4166b815719aece",
       "css": "list",
       "code": 59407,
@@ -292,6 +268,24 @@
       "uid": "53c977df16b09e3f7700a27ec90c43dc",
       "css": "stopwatch",
       "code": 59442,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "d9be617b7f2fe7843118ca2d3a1b8cca",
+      "css": "down-open",
+      "code": 59406,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "37910a1398001a5ccb541cb2a253a2c7",
+      "css": "right-open",
+      "code": 59428,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "c21d309f797d3644dc8d28c4617738ce",
+      "css": "left",
+      "code": 59405,
       "src": "mfglabs"
     },
     {
