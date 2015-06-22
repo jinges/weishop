@@ -32,27 +32,6 @@ body {
 	padding-bottom: 50px;
 	max-width: 640px;
 }
-input,button,select{
-	height: 40px;
-	line-height: 30px;
-	padding: 5px 15px;
-	font-size: 18px;
-	color: #646464;
-	background-color: #fff;
-	border-radius: 3px;
-}
-button{
-	color: #fff;
-	font-size: 20px;
-	background-color: #ef8c17;
-	border: 0px;
-}
-button:active{
-	background-color: #e77f06;
-}
-button.disable{
-	background-color: #D8D4D4;
-}
 /*****************盒模型********/
 .db_f{
   display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */
@@ -105,4 +84,35 @@ button.disable{
 }
 .p10{
 	padding: 10px;
+}
+/******************/
+.t_ar{
+	text-align: right;
+}
+.t_ac{
+	text-align: center;
+} 
+/**************** form *****************/
+.txt,.btn,.sel{
+	height: 40px;
+	line-height: 30px;
+	padding: 5px 15px;
+	font-size: 18px;
+	color: #646464;
+	background-color: #fff;
+	border-radius: 3px;
+}
+.btn{
+	color: #fff;
+	font-size: 20px;
+	background-color: #ef8c17;
+	border: 0px;
+	text-align: center;
+	display: block;
+}
+.btn:active{
+	background-color: #e77f06;
+}
+.btn.disable{
+	background-color: #D8D4D4;
 }
