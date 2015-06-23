@@ -273,7 +273,7 @@ section{
 	line-height: 40px;
 	font-size: 1.2rem;
 }
-.buycount span{
+.buycount *{
 	width: 34px;
 	height: 34px;
 	line-height: 34px;
@@ -283,7 +283,9 @@ section{
 	font-size: 18px;
 }
 .buycount .count{
-	width: 50px;
+	width: 80px;
+	line-height: 24px;
+	padding: 5px;
 }
 .product_nav li{
 	height: 40px;
